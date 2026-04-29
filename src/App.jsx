@@ -11,7 +11,7 @@ import PageNotFound from "./pages/PageNotFound";
 import Settings from "./pages/Settings";
 import Users from "./pages/Users";
 import Account from "./pages/Account";
-import Applayout from "./ui/Applayout";
+import AppLayout from "./ui/AppLayout";
 import Booking from "./pages/Booking";
 import Checkin from "./pages/Checkin";
 import ProtectedRoute from "./ui/ProtectedRoute";
@@ -37,7 +37,7 @@ function App() {
             <Route
               element={
                 <ProtectedRoute>
-                  <Applayout />
+                  <AppLayout />
                 </ProtectedRoute>
               }
             >
