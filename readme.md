@@ -2,7 +2,7 @@
 
 A hotel management dashboard for hotel staff to manage cabins, bookings, and guests.
 
-🔗 **Live Demo:** [the-wild-oasis-oraby.netlify.app](https://the-wild-oasis-k6ic.vercel.app/)
+🔗 **Live Demo:** [the-wild-oasis-k6ic.vercel.app](https://the-wild-oasis-k6ic.vercel.app/)
 
 ## Tech Stack
 
