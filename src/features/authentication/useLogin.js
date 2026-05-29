@@ -7,7 +7,7 @@ export default function useLogin() {
     const { mutate: login, isLoading: isLogingIn } = useMutation({
         mutationFn: ({ email, password }) => loginApi({ email, password }),
         onSuccess: (user) => {
-            queryClient.setQueryData(["user"], user.user); // to prevent prefetching user
+            queryClient.setQueryData(["user"], user.user); // to prevent refetching user
             toast.success("User succesffuly loged in");
         },
         onError: (err) => toast.error(err.message)
